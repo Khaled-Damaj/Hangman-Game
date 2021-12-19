@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/hangman.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <title>Hangman</title>
+  </head>
+  <body>
+    <header>
+      <h2>Hangman</h2>
+    </header>
+    <div class="hangman">
+      <div class="container">
+        <div class="col">
+          <div class="letters">
+            <div class="letters-head">
+              <h2>Letters</h2>
+            </div>
+            <div class="letters-box"></div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="draw-head">
+            <h2>Mistakes: <span class="mistake">0</span>/10</h2>
+            <span class="hint">Hint: <span class="category"></span> </span>
+          </div>
+          <div class="draw">
+            <div class="base"></div>
+            <div class="pole"></div>
+            <div class="wooden"></div>
+            <div class="rope"></div>
+            <div class="head"></div>
+            <div class="body"></div>
+            <div class="arm left-arm"></div>
+            <div class="arm right-arm"></div>
+            <div class="feet left-feet"></div>
+            <div class="feet right-feet"></div>
+          </div>
+          <div class="guess-letter"></div>
+        </div>
+      </div>
+    </div>
+    <script src="js/hangman.js"></script>
+  </body>
+</html>
